@@ -7,13 +7,13 @@
             {% for sources in source_row %}
 	            <div class="col-md-3">
 		           
-		            <div class="card card-default">
-						<div class="card-title">
+		            <div class="panel panel-default">
+						<div class="panel-heading">
 							<a href="/sources/{{sources.id}}">
 							    {{ sources.name}}
 					        </a>
 						</div>
-						<div class="card-body">
+						<div class="panel-body">
 							<p>
 								{{ sources.description |truncate(100)}}
 
