@@ -3,33 +3,33 @@
 
 {% block content%}
 <div class="container-fluid">
-		<!-- Business News Section  -->
-        <h3> Top Business News Sources</h3>
-        <hr>
+    <!-- Business News Section  -->
+    <h3 class="text-center animated lightSpeedIn slow"> Top Business News Sources</h3>
+    <hr>
 
-        {{ macro.displaySourceList(sources)}}
+    {{ macro.displaySourceList(sources)}}
 
-        <!-- Business News Section  -->
-         
-        <h3> Top Technology News Sources</h3>
-        <hr>
+    <!-- Technology News Section  -->
 
-        {{ macro.displaySourceList(technology_sources)}}
+    <h3 class="text-center animated lightSpeedIn slow"> Top Technology News Sources</h3>
+    <hr>
 
-        <!-- Entertainment News Section  -->
-         
-        <h3> Top Entertainment News Sources</h3>
-        <hr>
+    {{ macro.displaySourceList(technology_sources)}}
 
-        {{ macro.displaySourceList(entertainment_sources)}}
+    <!-- Entertainment News Section  -->
 
-        <!-- Entertainment News Section  -->
-         
-        <h3> Top Sports News Sources</h3>
-        <hr>
+    <h3 class="text-center animated lightSpeedIn slow"> Top Entertainment News Sources</h3>
+    <hr>
 
-        {{ macro.displaySourceList(sports_sources)}}
-	
+    {{ macro.displaySourceList(entertainment_sources)}}
+
+    <!-- Sports News Section  -->
+
+    <h3 class="text-center animated lightSpeedIn slow"> Top Sports News Sources</h3>
+    <hr>
+
+    {{ macro.displaySourceList(sports_sources)}}
+
 </div>
 
 
