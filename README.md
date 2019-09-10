@@ -40,9 +40,9 @@ You need the following to start working on the project on your local computer:
 * Clone this repository to your local computer.
 * Ensure you have python3.6 installed in your computer.
 * From the terminal navigate to the cloned project folder.
-* Create a virtual environment and access the folder via your virtual amchine.
+* Create a virtual environment and access the folder via your virtual machine.
 * Visit https://newsapi.org/ and register for an API key.
-* Create start.sh file and in it write the following lines:
+* Create start.sh file and in it write the following lines of code:
 ```
  export NEWS_API_KEY='<Your-Api-Key>'
  python3.6 manage.py server
